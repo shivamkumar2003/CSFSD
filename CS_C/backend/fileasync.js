@@ -21,7 +21,7 @@ const write = async () => {
      await fspromises.writeFile("./data2.txt",newdata, "utf-8");
     
   } catch (error) {
-    console.log(error.message);
+    console.log("jai shree ram"+error.message);
   }
 };
 
